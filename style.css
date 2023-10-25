@@ -1,0 +1,116 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    justify-content: space-between;  
+    background-color: rgb(224, 220, 220);
+    font-size: 18px;
+    text-align: center;
+    line-height: 0.9;
+}
+
+h1 {
+    color: rgb(64, 76, 99);
+    font-family: Helvetica;
+    font-weight:800;
+}
+
+h2 {
+    color: rgb(110, 182, 120);
+    font-size: 25px;
+    font-family: Helvetica;
+    font-weight: bolder;
+}
+
+.text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(64, 76, 99);
+    font-weight:500;
+}
+
+img {
+    border-radius: 25%;
+    width: 25vw;
+}
+
+@media (max-width:1680px){
+    body{
+        flex-direction: column;
+    }
+}
+
+
+
+.Presentation{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.4);
+    padding-bottom: 100px;
+    margin : 15px;
+    width: 40vw;
+}
+
+#billetterie {
+    position: relative;
+    top : 50px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    transition: color 0.5s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(67, 81, 209);   
+    padding: 5%;                                         
+    border-radius: 70px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    font-size: 75%;
+}
+
+
+#billetterie:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(82, 135, 204);
+    color: rgb(184, 53, 53);
+}
+
+
+.card-white{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 15px 25px 15px;
+    border: 7px;
+    width: 40vw;
+}
+
+.Socials{
+    position : relative;
+    left: 10vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1);
+    padding: 5px 5px 30px 5px;
+    margin: 15px;
+    border: 5px;
+    width: 25vw;
+}
+
+
+.Socials a{
+    text-decoration: none;
+    border-radius: 50px;
+    transition: color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(100, 88, 155);  
+    color: rgb(255, 255, 255);
+    padding: 3%;  
+    font-size: 75%;
+}
+
+.Socials a:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 8px;
+    background-color: rgb(142, 125, 218);  
+}
+
+
